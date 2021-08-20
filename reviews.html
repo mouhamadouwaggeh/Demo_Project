@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyATn32OiOnL0Tgco9xQv4VrvC58MzCDnbk",
+    authDomain: "reviews-9d691.firebaseapp.com",
+    projectId: "reviews-9d691",
+    storageBucket: "reviews-9d691.appspot.com",
+    messagingSenderId: "410962165668",
+    appId: "1:410962165668:web:3884e09c09f83012324b31"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="firebase.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="main.html"><img id="Logo" src=images/Fur_Friends_Logo.jpg></a>
+    <h1>REVIEWS</h1>
+    
+    <h2 id="Review_h3">Reviews Of our Services From our Lovely Customers!</h2>
+    <h3>Click "Create A Review to" Make your own!</h3>
+    <a id="Button1" href="#Name"><button>Create A Review</button></a>
+    <div class="Reviews">
+
+    </div>
+
+    <input id="Name"placeholder="Put your name here">
+    <input id="Input"placeholder="Post your own review here!">
+    <button id="Button">SUBMIT</button>
+<br>
+<br>
+    
+</body>
+</html>
